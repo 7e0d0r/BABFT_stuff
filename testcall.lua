@@ -1,15 +1,15 @@
-local function CreateWindow()
+function CreateWindow()
     print('CreateWindow')
 end
 
-local function CreateButton()
+function CreateButton()
     print('CreateButton')
 end
 
-local function CreateLabel()
+function CreateLabel()
     print('CreateLabel')
 end
 
-local function CreateToggle()
+function CreateToggle()
     print('CreateToggle')
 end
