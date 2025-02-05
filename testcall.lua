@@ -1,15 +1,19 @@
-function CreateWindow()
+local module = {}
+
+function module.CreateWindow()
     print('CreateWindow')
 end
 
-function CreateButton()
+function module.CreateButton()
     print('CreateButton')
 end
 
-function CreateLabel()
+function module.CreateLabel()
     print('CreateLabel')
 end
 
-function CreateToggle()
+function module.CreateToggle()
     print('CreateToggle')
 end
+
+return module
